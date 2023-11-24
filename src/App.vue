@@ -1,14 +1,11 @@
 <script setup>
+import TodoView from '@/views/TodoView.vue'
 </script>
 
 <template>
-  <div class="bg-slate-100">
-    <header>
-      <div class="wrapper">
-      </div>
-    </header>
+  <div>
+    <TodoView />
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
